@@ -1,4 +1,4 @@
-Disclaimer: This package was originally created by Github user robertSheaO and is an unofficial fork. The original repository has been deleted as has the RobertSheaO's profile. The original repository was located at https://github.com/robertsheao/react-native-zendesk-support 
+Disclaimer: This package was originally forked by @synapsestudios from a repo created by Github user robertSheaO and is an unofficial fork. The original repository has been deleted as has the RobertSheaO's profile. The original repository was located at https://github.com/robertsheao/react-native-zendesk-support.  
 
 # react-native-zendesk-support
 React Native bridge to Zendesk Support SDK on iOS and Android. This currently only supports using the out of the box views the Zendesk Support SDK provides. At the moment, only anonymous authentication is supported.
@@ -11,7 +11,7 @@ This has only been tested to work with React Native 0.47, probably works in earl
 
 ### Installing via RNPM (Common)
 ```
-react-native link @synapsestudios/react-native-zendesk-support
+react-native link @elyalvarado/react-native-zendesk-support
 ```
 
 ### Installing via Cocoapods (Not Common)
@@ -97,7 +97,7 @@ Personally, I use the CocoaPods implementation described in their documentation.
 
 #### Import the module
 ```js
-import ZendeskSupport from '@synapsestudios/react-native-zendesk-support';
+import ZendeskSupport from '@elyalvarado/react-native-zendesk-support';
 ```
 
 #### Initialize Zendesk
