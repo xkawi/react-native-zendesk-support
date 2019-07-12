@@ -1,11 +1,11 @@
 {
-  "name": "@elyalvarado/react-native-zendesk-support",
+  "name": "@xkawi/react-native-zendesk-support",
   "version": "1.0.0",
   "description": "React Native Wrapper around Zendesk Support",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/elyalvarado/react-native-zendesk-support"
+    "url": "https://github.com/xkawi/react-native-zendesk-support"
   },
   "keywords": [
     "zendesk",
@@ -16,6 +16,6 @@
     "android",
     "react-component"
   ],
-  "author": "Ely Alvarado (elyalvarado@gmail.com)",
+  "author": "Kawi Xiao (kawixiao@gmail.com)",
   "license": "MIT"
 }
