@@ -9,13 +9,13 @@ Pod::Spec.new do |s|
   s.license = package[:license]
   s.authors = package[:author]
   s.summary = package[:description]
-  s.source = { :git => 'https://github.com/robertsheao/react-native-zendesk-support.git',  :tag => 'v'+s.version.to_s }
-  s.homepage = 'https://github.com/robertsheao/react-native-zendesk-support'
+  s.source = { :git => 'https://github.com/xkawi/react-native-zendesk-support.git',  :tag => 'v'+s.version.to_s }
+  s.homepage = 'https://github.com/xkawi/react-native-zendesk-support'
   s.source_files   = 'ios/RNZenDeskSupport.{h,m}'
 
-  s.platform = :ios, "8.0"
+  s.platform = :ios, '9.0'
 
-  s.dependency 'ZendeskSDK'
+  s.dependency 'ZendeskSDK', '~> 1.11.2.1'
   s.dependency 'React'
   s.ios.xcconfig = {
     'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/ZendeskSDK"',
