@@ -21,14 +21,5 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation (group: 'com.zendesk', name: 'sdk', version: '1.11.0.1') {
-        exclude module: 'appcompat-v7'
-        exclude module: 'support-v4'
-        exclude module: 'design'
-        exclude module: 'recyclerview-v7'
-    }
-    implementation "com.android.support:support-v4:${rootProject.ext.supportLibVersion}"
-    implementation "com.android.support:support-media-compat:${rootProject.ext.supportLibVersion}"
-    implementation "com.android.support:design:${rootProject.ext.supportLibVersion}"
-    implementation "com.android.support:recyclerview-v7:${rootProject.ext.supportLibVersion}"
+    implementation group: 'com.zendesk', name: 'sdk', version: '1.11.0.1'
 }
